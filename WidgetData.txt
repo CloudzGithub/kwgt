@@ -1,0 +1,51 @@
+##KUSTOMCLIP##
+{
+  "clip_version": 1,
+  "clip_cut": [],
+  "clip_modules": [
+    {
+      "internal_toggles": {
+        "fx_gradient_bitmap": 10
+      },
+      "internal_formulas": {
+        "fx_gradient_bitmap": "$mi(cover)$"
+      },
+      "internal_type": "ShapeModule",
+      "shape_width": 160.0,
+      "fx_gradient": "BITMAP",
+      "internal_title": "Cover",
+      "position_offset_x": -240.0
+    },
+    {
+      "internal_type": "TextModule",
+      "internal_title": "Song Name",
+      "text_expression": "$mi(title)$",
+      "text_size": 30.0,
+      "position_offset_x": 120.0,
+      "position_offset_y": -20.0
+    },
+    {
+      "internal_type": "TextModule",
+      "internal_title": "Song Artists",
+      "text_expression": "$mi(artist)$",
+      "text_size": 25.0,
+      "position_offset_x": 100.0,
+      "position_offset_y": 20.0
+    },
+    {
+      "internal_type": "TextModule",
+      "internal_title": "Album Name",
+      "text_expression": "$mi(album)$",
+      "position_offset_x": -240.0,
+      "position_offset_y": -100.0
+    },
+    {
+      "internal_type": "TextModule",
+      "text_expression": "$tf(mi(pos), mm:ss)$/$tf(mi(len), mm:ss)$",
+      "position_offset_x": -240.0,
+      "position_offset_y": 100.0,
+      "internal_title": "Time"
+    }
+  ]
+}
+##KUSTOMCLIP##
